@@ -15,3 +15,8 @@ $(document).ready(function() {
     $("#Var-Definition").fadeToggle();
   });
 });
+$(document).ready(function() {
+  $(".Var-Name-Clickable").click(function() {
+    $("#Var-Name-Definition").fadeToggle();
+  });
+});

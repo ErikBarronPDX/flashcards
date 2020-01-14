@@ -36,3 +36,12 @@
     color: #0088cc;
     float: right;
 }
+.Var-Name-Clickable {
+    cursor: pointer;
+    color: #0088cc;
+    float: right;
+}
+#Var-Name-Definition {
+    display: none;
+    background-color: red;
+}
