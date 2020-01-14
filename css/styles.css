@@ -1,9 +1,11 @@
 #JS-definition {
     display: none;
+    background-color: red;
 }
 
 #Operator-definition {
     display: none;
+    background-color: red;
 }
 
 .Operator-clickable {
@@ -24,4 +26,13 @@
 
 .col-md-6 {
     background-color: lightblue;
+}
+#Var-Definition {
+    display: none;
+    background-color: red;
+}
+.Var-Clickable {
+    cursor: pointer;
+    color: #0088cc;
+    float: right;
 }
