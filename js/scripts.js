@@ -1,6 +1,12 @@
 $(document).ready(function() {
-  $(".clickable").click(function() {
-    $(".term").toggle();
-    $(".definition").toggle();
+  $(".JS-clickable").click(function() {
+    $("#JS-term").toggle();
+    $("#JS-definition").toggle();
+  });
+});
+
+$(document).ready(function() {
+  $(".Operator-clickable").click(function() {
+    $("#Operator-definition").fadeToggle();
   });
 });

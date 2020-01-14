@@ -1,8 +1,27 @@
-.definition {
+#JS-definition {
     display: none;
 }
 
-.clickable {
+#Operator-definition {
+    display: none;
+}
+
+.Operator-clickable {
     cursor: pointer;
     color: #0088cc;
+    float: right;
   }
+
+.JS-clickable {
+    cursor: pointer;
+    color: #0088cc;
+    float: right;
+  }
+
+.jumbotron {
+    text-align: center;
+}
+
+.col-md-6 {
+    background-color: lightblue;
+}
